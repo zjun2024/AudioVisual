@@ -198,9 +198,9 @@ function getPlatformName(url) {
     if (url.includes('youku.com')) return '优酷';
     if (url.includes('bilibili.com')) return '哔哩哔哩';
     if (url.includes('mgtv.com')) return '芒果TV';
-    if (url.includes('movie1080.xyz')) return '影巢movie';
-    if (url.includes('monkey-flix.com')) return '猴影工坊';
-    if (url.includes('letu.me')) return '茉小影';
+    if (url.includes('ddmf.net')) return '蛋蛋魔法';
+    if (url.includes('tdgo.shop')) return '白嫖者联盟';
+    if (url.includes('nivod.vip')) return '泥视频';
     if (url.includes('ncat21.com')) return '网飞猫';
     return '其他';
 }
