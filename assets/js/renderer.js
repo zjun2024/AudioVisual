@@ -105,6 +105,8 @@ const platforms = [
 
 const DEFAULT_API_LIST = [
     { value: "https://jx.xmflv.com/?url=", label: "虾米视频解析" },
+    { value: "https://json.fongmi.cc/web?url=", label: "默认A视频解析" },
+    { value: "https://super.playr.top/?url=", label: "默认B视频解析" },
     { value: "https://jx.77flv.cc/?url=", label: "七七云解析" },
     { value: "https://jx.playerjy.com/?url=", label: "Player-JY" },
     { value: "https://jiexi.789jiexi.icu:4433/?url=", label: "789解析" },
@@ -112,7 +114,7 @@ const DEFAULT_API_LIST = [
     { value: "https://bd.jx.cn/?url=", label: "冰豆解析" },
     { value: "https://jx.973973.xyz/?url=", label: "973解析" },
     { value: "https://www.ckplayer.vip/jiexi/?url=", label: "CK" },
-    { value: "https://jx.nnxv.cn/tv.php?url=", label: "七哥解析" },
+    { value: "https://jx.202617.xyz/tv.php?url=", label: "七哥解析" },
     { value: "https://www.yemu.xyz/?url=", label: "夜幕" },
     { value: "https://www.pangujiexi.com/jiexi/?url=", label: "盘古" },
     { value: "https://www.playm3u8.cn/jiexi.php?url=", label: "playm3u8" },
@@ -122,10 +124,10 @@ const DEFAULT_API_LIST = [
 ];
 
 const DEFAULT_DRAMA_SITES = [
-    { value: 'https://www.movie1080.xyz/', label: '影巢movie' },
-    { value: 'https://monkey-flix.com/', label: '猴影工坊' },
-    { value: 'https://www.letu.me/', label: '茉小影' },
-    { value: 'https://www.ncat21.com/', label: '网飞猫' }
+    { value: 'https://ddmf.net/', label: '蛋蛋魔法' },
+    { value: 'https://www.tdgo.shop/', label: '白嫖者联盟' },
+    { value: 'https://www.nivod.vip/', label: '泥视频' },
+    { value: 'https://www.ncat27.com/', label: '网飞猫' }
 ];
 
 let apiList = [...DEFAULT_API_LIST];
