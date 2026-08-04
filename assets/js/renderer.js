@@ -105,8 +105,8 @@ const platforms = [
 
 const DEFAULT_API_LIST = [
     { value: "https://jx.xmflv.com/?url=", label: "虾米视频解析" },
-    { value: "https://json.fongmi.cc/web?url=", label: "默认A视频解析" },
-    { value: "https://super.playr.top/?url=", label: "默认B视频解析" },
+    { value: "https://jx.m3u8.tv/jiexi/?url=", label: "jx.m3u8.tv视频解析" },
+    { value: "https://www.pouyun.com/?url=", label: "剖云视频解析" },
     { value: "https://jx.77flv.cc/?url=", label: "七七云解析" },
     { value: "https://jx.playerjy.com/?url=", label: "Player-JY" },
     { value: "https://jiexi.789jiexi.icu:4433/?url=", label: "789解析" },
@@ -124,8 +124,8 @@ const DEFAULT_API_LIST = [
 ];
 
 const DEFAULT_DRAMA_SITES = [
-    { value: 'https://ddmf.net/', label: '蛋蛋魔法' },
-    { value: 'https://www.tdgo.shop/', label: '白嫖者联盟' },
+    { value: 'https://www.dbku.tv/', label: '独播库' },
+    { value: 'https://bubuzhuiju.com/', label: '布布追剧' },
     { value: 'https://www.nivod.vip/', label: '泥视频' },
     { value: 'https://www.ncat27.com/', label: '网飞猫' }
 ];
@@ -198,10 +198,10 @@ function getPlatformName(url) {
     if (url.includes('youku.com')) return '优酷';
     if (url.includes('bilibili.com')) return '哔哩哔哩';
     if (url.includes('mgtv.com')) return '芒果TV';
-    if (url.includes('ddmf.net')) return '蛋蛋魔法';
-    if (url.includes('tdgo.shop')) return '白嫖者联盟';
+    if (url.includes('dbku.tv')) return '独播库';
+    if (url.includes('bubuzhuiju.com')) return '布布追剧';
     if (url.includes('nivod.vip')) return '泥视频';
-    if (url.includes('ncat21.com')) return '网飞猫';
+    if (url.includes('ncat27.com')) return '网飞猫';
     return '其他';
 }
 
